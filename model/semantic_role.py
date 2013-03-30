@@ -14,7 +14,7 @@ class Semantic_role(object):
 
     def __init__(
         self, tokens, penn_tags, chunk_tags,
-        ne_labels, predicate_labels, semantic_role_labels):
+            ne_labels, full_arg_type):
 
         self.tag_conversion_dict = {
             'NN': wn.NOUN, 'JJ': wn.ADJ, 'VB': wn.VERB, 'RB': wn.ADV
@@ -24,8 +24,11 @@ class Semantic_role(object):
         self.wn_tags = self.get_wn_tags(self.penn_tags)
         self.chunk_tags = chunk_tags
         self.ne_labels = ne_labels
-        self.predicate_labels = predicate_labels
-        self.semantic_role_labels = semantic_role_labels
+        #self.predicate_labels = predicate_labels
+        self.full_arg_type = full_arg_type
+
+    def get_arg_type(self):
+        return self.full_arg_type[-2:]
 
     def get_wn_tags(self, penn_tags):
         wn_tags = []
@@ -42,12 +45,10 @@ class Semantic_role(object):
         pos_tags: %s
         chunk tags: %s
         ne labels: %s
-        predicate labels: %s
-        semantic role labels: %s''' % (
+        full_arg_type: %s''' % (
         self.tokens,
         self.penn_tags,
         self.chunk_tags,
         self.ne_labels,
-        self.predicate_labels,
-        self.semantic_role_labels
+        self.full_arg_type
         )).encode('utf-8', 'ignore')

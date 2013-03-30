@@ -1,0 +1,2470 @@
+[{
+    "p": "A man",
+	"p_arg": "A0",
+	"p_ne": null,
+    "h": "A man",
+	"h_arg": "A0",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+    "p": "won",
+	"p_arg": "V",
+	"p_ne": null,
+    "h": "won",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+    "p": "the Nobel Prize",
+	"p_arg": "A1",
+	"p_ne": ["MISC"],
+    "h": "the Nobel Prize for Literature",
+	"h_arg": "A1",
+	"h_ne": ["MISC"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+    "p": "An Irishman",
+	"p_arg": "A0",
+	"p_ne": ["MISC"],
+    "h": "An Irishman",
+	"h_arg": "A0",
+	"h_ne": ["MISC"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+    "p": "won",
+	"p_arg": "V",
+	"p_ne": null,
+    "h": "won",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+    "p": "the Nobel Prize",
+	"p_arg": "A1",
+	"p_ne": ["MISC"],
+    "h": "the Nobel Prize for Literature",
+	"h_arg": "A1",
+	"h_ne": ["MISC"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+    "p": "An Irishman",
+	"p_arg": "A0",
+	"p_ne": ["MISC"],
+    "h": "An Irishman",
+	"h_arg": "A0",
+	"h_ne": ["MISC"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+    "p": "won",
+	"p_arg": "V",
+	"p_ne": null,
+    "h": "won",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+    "p": "George Washington",
+	"p_arg": "A0",
+	"p_ne": ["PER"],
+    "h": "Washington",
+	"h_arg": "A0",
+	"h_ne": ["PER"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+    "p": "was",
+	"p_arg": "V",
+	"p_ne": null,
+    "h": "was",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+    "p": "the first president of the United States",
+	"p_arg": "A1",
+	"p_ne": ["ORG"],
+    "h": "America's first President",
+	"h_arg": "A1",
+	"h_ne": ["ORG"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+    "p": "David Gilmour",
+	"p_arg": "A0",
+	"p_ne": ["PER"],
+    "h": "David",
+	"h_arg": "A0",
+	"h_ne": ["PER"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+    "p": "plays",
+	"p_arg": "V",
+	"p_ne": null,
+    "h": "plays",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+    "p": "guitar for Pink Floyd",
+	"p_arg": "A1",
+	"p_ne": ["ORG"],
+    "h": "guitar",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+    "p": "David Gilmour",
+	"p_arg": "A0",
+	"p_ne": ["PER"],
+    "h": "David Gilmour",
+	"h_arg": "A0",
+	"h_ne": ["PER"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+    "p": "plays",
+	"p_arg": "V",
+	"p_ne": null,
+    "h": "plays",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+    "p": "guitar for Pink Floyd",
+	"p_arg": "A1",
+	"p_ne": ["ORG"],
+    "h": "guitar which David Gilmour did on many Pink Floyd tracks",
+	"h_arg": "A1",
+	"h_ne": ["PER", "ORG"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+    "p": "Carolina",
+	"p_arg": "A0",
+	"p_ne": ["LOC"],
+    "h": "Carolina",
+	"h_arg": "A1",
+	"h_ne": ["LOC"],
+	"aligned_sym": "True",
+	"aligned_asym": "False"
+},
+{
+    "p": "losing",
+	"p_arg": "V",
+	"p_ne": null,
+    "h": "beat",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+    "p": "Kansas",
+	"p_arg": "A2",
+	"p_ne": ["LOC"],
+    "h": "Kansas",
+	"h_arg": "A0",
+	"h_ne": ["LOC"],
+	"aligned_sym": "True",
+	"aligned_asym": "False"
+},
+{
+    "p": "Barack Obama",
+	"p_arg": "A1",
+	"p_ne": ["PER"],
+    "h": "Barack Obama, the first black president,",
+	"h_arg": "A0",
+	"h_ne": ["PER"],
+	"aligned_sym": "True",
+	"aligned_asym": "False"
+},
+{
+    "p": "the first black president",
+	"p_arg": "A1",
+	"p_ne": null,
+    "h": "Barack Obama, the first black president,",
+	"h_arg": "A0",
+	"h_ne": ["PER"],
+	"aligned_sym": "True",
+	"aligned_asym": "False"
+},
+{
+	"p": "the first black president",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "beat",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "Jeremy",
+	"p_arg": "A0",
+	"p_ne": ["PER"],
+	"h": "Jeremy",
+	"h_arg": "A0",
+	"h_ne": ["PER"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "Jeremy",
+	"p_arg": "A0",
+	"p_ne": ["PER"],
+	"h": "ate",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "The dildo factory",
+	"p_arg": "A0",
+	"p_ne": null,
+	"h": "emancipated",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "The dark knight",
+	"p_arg": "A0",
+	"p_ne": null,
+	"h": "defeated the Joker.",
+	"h_arg": "A1",
+	"h_ne": ["PER"],
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "George Washington",
+	"p_arg": "A1",
+	"p_ne": ["PER"],
+	"h": "was",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "George Washinton",
+	"p_arg": "A1",
+	"p_ne": ["PER"],
+	"h": "definitely not the first president of the United States.",
+	"h_arg": "A1",
+	"h_ne": ["ORG"],
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "Learn",
+	"p_arg": "V",
+	"p_ne": null,
+	"h": "George Washington",
+	"h_arg": "A1",
+	"h_ne": ["PER"],
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "as the first President of the United States.",
+	"p_arg": "A2",
+	"p_ne": ["ORG"],
+	"h": "was",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "George Washington",
+	"p_arg": "A1",
+	"p_ne": ["PER"],
+	"h": "the fancy feast cat",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "Lenovo",
+	"p_arg": "A1",
+	"p_ne": ["ORG"],
+	"h": "George Washington",
+	"h_arg": "A1",
+	"h_ne": ["PER"],
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "mix",
+	"p_arg": "V",
+	"p_ne": null,
+	"h": "George Washington",
+	"h_arg": "A1",
+	"h_ne": ["PER"],
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "turbo mode on the Porsche",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "was",
+	"h_arg": "V",
+	"h_ne": ["MISC"],
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "Richard Nixon",
+	"p_arg": "A0",
+	"p_ne": ["PER"],
+	"h": "debated",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "Richard Nixon",
+	"p_arg": "A0",
+	"p_ne": ["PER"],
+	"h": "as the cook of the SS Champion.",
+	"h_arg": "A1",
+	"h_ne": ["MISC"],
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "South Dakota Senator",
+	"p_arg": "A0",
+	"p_ne": ["LOC"],
+	"h": "will",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "First woman",
+	"p_arg": "A0",
+	"p_ne": null,
+	"h": "run again",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "to lead Secret Service",
+	"p_arg": "A1",
+	"p_ne": ["ORG"],
+	"h": "First woman",
+	"h_arg": "A0",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "Eight Boston-area youths",
+	"p_arg": "A0",
+	"p_ne": ["LOC"],
+	"h": "visit",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "Eight Boston-area youths",
+	"p_arg": "A0",
+	"p_ne": ["LOC"],
+	"h": "First woman",
+	"h_arg": "A0",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "Egypt",
+	"p_arg": "A0",
+	"p_ne": ["LOC"],
+	"h": "arrest of activists",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "arrest of activists",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "unanimously was the first president of the United States",
+	"h_arg": "A1",
+	"h_ne": ["ORG"],
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "The first woman",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "Richard Nixon",
+	"h_arg": "A1",
+	"h_ne": ["PER"],
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "Egypt",
+	"p_arg": "A0",
+	"p_ne": ["LOC"],
+	"h": "John F. Kennedy",
+	"h_arg": "A0",
+	"h_ne": ["PER"],
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "George Washington",
+	"p_arg": "A0",
+	"p_ne": ["PER"],
+	"h": "France",
+	"h_arg": "A0",
+	"h_ne": ["LOC"],
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "Richard Nixon",
+	"p_arg": "A0",
+	"p_ne": ["PER"],
+	"h": "George Washington",
+	"h_arg": "A0",
+	"h_ne": ["PER"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "Jimmy Carter",
+	"p_arg": "A1",
+	"p_ne": ["PER"],
+	"h": "a very hungry panda.",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "about George Washington the first president of the United States",
+	"p_arg": "A2",
+	"p_ne": ["PER", "ORG"],
+	"h": "George Washington",
+	"h_arg": "A1",
+	"h_ne": ["PER"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "unanimously as the first president",
+	"p_arg": "A2",
+	"p_ne": null,
+	"h": "the first president of the United States",
+	"h_arg": "A1",
+	"h_ne": ["ORG"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "unanimously as the first president of the United States",
+	"p_arg": "A2",
+	"p_ne": ["ORG"],
+	"h": "the first president",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "definitely not the first president of the United States",
+	"p_arg": "A1",
+	"p_ne": ["ORG"],
+	"h": "the first president",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "his oath of office as the first President of the United States.",
+	"p_arg": "A1",
+	"p_ne": ["ORG"],
+	"h": "the first president",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "Ahmedinejad",
+	"p_arg": "A0",
+	"p_ne": ["PER"],
+	"h": "Ahmadinejad",
+	"h_arg": "A0",
+	"h_ne": ["PER"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "Iranian President Mahmoud Ahmedinejad",
+	"p_arg": "A0",
+	"p_ne": ["PER"],
+	"h": "President Ahmedinejad",
+	"h_arg": "A1",
+	"h_ne": ["PER"],
+	"aligned_sym": "True",
+	"aligned_asym": "False"
+},
+{
+	"p": "Lead Zeppelin",
+	"p_arg": "A1",
+	"p_ne": ["ORG"],
+	"h": "Led Zeppelin",
+	"h_arg": "A0",
+	"h_ne": ["ORG"],
+	"aligned_sym": "True",
+	"aligned_asym": "False"
+},
+{
+	"p": "Elected",
+	"p_arg": "V",
+	"p_ne": null,
+	"h": "was",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "about George Washington the first President of the United States",
+	"p_arg": "A1",
+	"p_ne": ["PER", "ORG"],
+	"h": "George Washington",
+	"h_arg": "A1",
+	"h_ne": ["PER"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "George Washington",
+	"p_arg": "A1",
+	"p_ne": ["PER"],
+	"h": "Washington",
+	"h_arg": "A1",
+	"h_ne": ["PER"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "elected",
+	"p_arg": "V",
+	"p_ne": null,
+	"h": "won",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "was",
+	"p_arg": "V",
+	"p_ne": null,
+	"h": "becase",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "is",
+	"p_arg": "V",
+	"p_ne": null,
+	"h": "was",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "lead",
+	"p_arg": "V",
+	"p_ne": null,
+	"h": "command",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "took",
+	"p_arg": "V",
+	"p_ne": null,
+	"h": "stole",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "earned",
+	"p_arg": "V",
+	"p_ne": null,
+	"h": "won",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "fashion frenzy",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "interest in fashion",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "The Pope",
+	"p_arg": "A0",
+	"p_ne": ["PER"],
+	"h": "Pope Francis",
+	"h_arg": "A0",
+	"h_ne": ["PER"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "the papal library on the second floor of the Apostolic palace for receiving official guests and will appear on Sundays at the window used by previous popes to address pilgrims in St Peters Square.",
+	"p_arg": "A1",
+	"p_ne": ["MISC", "LOC"],
+	"h": "The Pope",
+	"h_arg": "A0",
+	"h_ne": ["PER"],
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "these quarters in the long term",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "a simple two-room suite in the Domus Santa Marta",
+	"h_arg": "A1",
+	"h_ne": ["LOC"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "10% discount for using 2-factor authentication",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "a discount",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "on US-Mexico border",
+	"p_arg": "A1",
+	"p_ne": ["ORG", "ORG"],
+	"h": "on the border",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "on US-Mexico border",
+	"p_arg": "A1",
+	"p_ne": ["LOC", "LOC"],
+	"h": "on the US's southern border",
+	"h_arg": "A1",
+	"h_ne": ["ORG"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "in startups that pitched at YC Demo Day",
+	"p_arg": "A1",
+	"p_ne": ["ORG"],
+	"h": "new startup companies",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "The RSS reader",
+	"p_arg": "A0",
+	"p_ne": ["MISC"],
+	"h": "Google Reader",
+	"h_arg": "A0",
+	"h_ne": ["MISC"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "Obama",
+	"p_arg": "A1",
+	"p_ne": ["PER"],
+	"h": "Obama",
+	"h_arg": "A1",
+	"h_ne": ["PER"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "a leanpub book about Common Lisp web programming",
+	"p_arg": "A1",
+	"p_ne": ["MISC"],
+	"h": "a book about Lisp",
+	"h_arg": "A1",
+	"h_ne": ["MISC"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "a book about the Lisp programming language",
+	"p_arg": "A1",
+	"p_ne": ["MISC"],
+	"h": "a book on Lisp that I will distribute for free",
+	"h_arg": "A1",
+	"h_ne": ["MISC"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "Obama , who was born in Hawaii ,",
+	"p_arg": "A1",
+	"p_ne": ["MISC"],
+	"h": "Obama",
+	"h_arg": "A1",
+	"h_ne": "A1",
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "a Democrat",
+	"p_arg": "A1",
+	"p_ne": ["MISC"],
+	"h": "a Democrat",
+	"h_arg": "A2",
+	"h_ne": ["MISC"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "is",
+	"p_arg": "V",
+	"p_ne": null,
+	"h": "is",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "Obama",
+	"p_arg": "A1",
+	"p_ne": ["PER"],
+	"h": "is",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "a Democrat",
+	"p_arg": "A1",
+	"p_ne": ["MISC"],
+	"h": "is",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "who",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "was",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "born in Hawaii",
+	"p_arg": "A1",
+	"p_ne": ["LOC"],
+	"h": "born in Honolulu , Hawaii",
+	"h_arg": "A1",
+	"h_ne": ["LOC"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "Obama",
+	"p_arg": "A1",
+	"p_ne": ["PER"],
+	"h": "Obama",
+	"h_arg": "A0",
+	"h_ne": ["PER"],
+	"aligned_sym": "True",
+	"aligned_asym": "False"
+},
+{
+	"p": "is",
+	"p_arg": "V",
+	"p_ne": null,
+	"h": "Obama , who was born in Hawaii",
+	"h_arg": "A1",
+	"h_ne": ["PER", "LOC"],
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "a Democrat",
+	"p_arg": "A1",
+	"p_ne": ["MISC"],
+	"h": "is",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "George Washington",
+	"p_arg": "A1",
+	"p_ne": ["PER"],
+	"h": "A hero of the Revolutionary War",
+	"h_arg": "AM-ADV",
+	"h_ne": ["MISC"],
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "A hero of the Revolutionary War , George Washington",
+	"p_arg": "A1",
+	"p_ne": ["MISC", "PER"],
+	"h": "the first president",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "A hero of the Revolutionary War , George Washington",
+	"p_arg": "A1",
+	"p_ne": ["MISC", "PER"],
+	"h": "George Washington",
+	"h_arg": "A1",
+	"h_ne": ["PER"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "was the first president",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "the first president of the United States",
+	"h_arg": "A3",
+	"h_ne": ["LOC"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "was",
+	"p_arg": "V",
+	"p_ne": null,
+	"h": "be",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "was",
+	"p_arg": "V",
+	"p_ne": null,
+	"h": "elected",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "A hero of the Revolutionary War",
+	"p_arg": "AM-ADV",
+	"p_ne": ["MISC"],
+	"h": "was",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "the first president",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "A hero of the Revolutionary War",
+	"h_arg": "Am-ADV",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "The cat",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "The tired cat",
+	"h_arg": "A0",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "False"
+},
+{
+	"p": "ate",
+	"p_arg": "V",
+	"p_ne": null,
+	"h": "was",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "tired",
+	"p_arg": "AM-MNR",
+	"p_ne": null,
+	"h": "The tired cat",
+	"h_arg": "A0",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "was",
+	"p_arg": "V",
+	"p_ne": null,
+	"h": "ate",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "The cat",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "The tired cat",
+	"h_arg": "A0",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "False"
+},
+{
+	"p": "some food",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "The cat",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "ate",
+	"p_arg": "V",
+	"p_ne": null,
+	"h": "some food",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "The cat",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "ate",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "tired",
+	"p_arg": "AM-MNR",
+	"p_ne": null,
+	"h": "some food",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "The tired cat",
+	"p_arg": "A0",
+	"p_ne": null,
+	"h": "was",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "The Carbon X1",
+	"p_arg": "A0",
+	"p_ne": ["ORG"],
+	"h": "The Carbon X1",
+	"h_arg": "A1",
+	"h_ne": ["MISC"],
+	"aligned_sym": "True",
+	"aligned_asym": "False"
+},
+{
+	"p": "The Carbon X1",
+	"p_arg": "A0",
+	"p_ne": ["ORG"],
+	"h": "The Carbon X1 , produced by Lenovo ,",
+	"h_arg": "A0",
+	"h_ne": ["MISC", "ORG"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "have",
+	"p_arg": "V",
+	"p_ne": null,
+	"h": "has",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "a large trackpad .",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "a big trackpad .",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "The Carbon X1 , produced by Lenovo ,",
+	"p_arg": "A0",
+	"p_ne": ["MISC", "ORG"],
+	"h": "The Carbon X1",
+	"h_arg": "A0",
+	"h_ne": ["MISC"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "has a large trackpad",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "have",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "have a big trackpad",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "The Carbon X1",
+	"h_arg": "A1",
+	"h_ne": ["MISC"],
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "produced",
+	"p_arg": "V",
+	"p_ne": null,
+	"h": "have",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "by Lenovo",
+	"p_arg": "A0",
+	"p_ne": null,
+	"h": "The Carbon X1",
+	"h_arg": "A0",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "Lenovo",
+	"p_arg": "A0",
+	"p_ne": ["ORG"],
+	"h": "by Lenovo",
+	"h_arg": "A0",
+	"h_ne": ["ORG"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "make",
+	"p_arg": "V",
+	"p_ne": null,
+	"h": "produced",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "Lenovo",
+	"p_arg": "A0",
+	"p_ne": ["ORG"],
+	"h": "produced",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "a large trackpad .",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "the Carbon X1",
+	"h_arg": "A1",
+	"h_ne": ["MISC"],
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "make",
+	"p_arg": "V",
+	"p_ne": null,
+	"h": "a large trackpad",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "The Carbon X1 , produced by Lenovo ,",
+	"p_arg": "A0",
+	"p_ne": ["MISC", "ORG"],
+	"h": "the Carbon X1",
+	"h_arg": "A1",
+	"h_ne": ["MISC"],
+	"aligned_sym": "True",
+	"aligned_asym": "False"
+},
+{
+	"p": "has",
+	"p_arg": "V",
+	"p_ne": null,
+	"h": "make",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "the Carbon X1",
+	"p_arg": "A1",
+	"p_ne": ["MISC"],
+	"h": "has",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "whose Windows Phone operating system",
+	"p_arg": "A0",
+	"p_ne": ["ORG"],
+	"h": "The Windows Phone operating system",
+	"h_arg": "A0",
+	"h_ne": ["ORG"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "has",
+	"p_arg": "V",
+	"p_ne": null,
+	"h": "has",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "had little success",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "not been successful",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "Microsoft",
+	"p_arg": "A0",
+	"p_ne": ["ORG"],
+	"h": "not been successful",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "Microsoft , whose Windows Phone operating system has had little success ,",
+	"p_arg": "A1",
+	"p_ne": ["ORG", "ORG"],
+	"h": "not been successful",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "bailing out its partner Nokia",
+	"p_arg": "A1",
+	"p_ne": ["ORG"],
+	"h": "The Windows Phone operating system",
+	"h_arg": "A1",
+	"h_ne": ["ORG"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "bailing out its partner Nokia",
+	"p_arg": "A1",
+	"p_ne": ["ORG"],
+	"h": "The Windows Phone operating system",
+	"h_arg": "A0",
+	"h_ne": ["ORG"],
+	"aligned_sym": "True",
+	"aligned_asym": "False"
+},
+{
+	"p": "had",
+	"p_arg": "V",
+	"p_ne": null,
+	"h": "Microsoft",
+	"h_arg": "A0",
+	"h_ne": ["ORG"],
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "little success",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "not been successful",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "little success",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "had",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "not",
+	"p_arg": "AM-NEG",
+	"p_ne": null,
+	"h": "had",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "has",
+	"p_arg": "V",
+	"p_ne": null,
+	"h": "not",
+	"h_arg": "AM-NEG",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "been",
+	"p_arg": "V",
+	"p_ne": null,
+	"h": "has",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "successful",
+	"p_arg": "A2",
+	"p_ne": null,
+	"h": "little success",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "has",
+	"p_arg": "V",
+	"p_ne": null,
+	"h": "had",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "Linus Torvalds",
+	"p_arg": "A0",
+	"p_ne": ["PER"],
+	"h": "Linus Torvalds",
+	"h_arg": "A0",
+	"h_ne": ["PER"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "Linus Torvalds",
+	"p_arg": "A0",
+	"p_ne": ["PER"],
+	"h": "the benevolent dictator",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "Linus Torvalds ,  the founder of Linux ,",
+	"p_arg": "A0",
+	"p_ne": ["PER", "MISC"],
+	"h": "Linus Torvalds",
+	"h_arg": "A0",
+	"h_ne": ["PER"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "Linus Torvalds ,  the founder of Linux ,",
+	"p_arg": "A0",
+	"p_ne": ["PER", "MISC"],
+	"h": "found",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "is",
+	"p_arg": "V",
+	"p_ne": null,
+	"h": "found",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "the benevolent dictator",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "found",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "The Linux Foundation",
+	"p_arg": "A0",
+	"p_ne": ["ORG"],
+	"h": "The Linux Foundation",
+	"h_arg": "A0",
+	"h_ne": ["ORG"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "The Linux Foundation",
+	"p_arg": "A1",
+	"p_ne": ["ORG"],
+	"h": "The Linux Foundation",
+	"h_arg": "A0",
+	"h_ne": ["ORG"],
+	"aligned_sym": "True",
+	"aligned_asym": "False"
+},
+{
+	"p": "is",
+	"p_arg": "V",
+	"p_ne": null,
+	"h": "distributing",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "desktops",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "the kernel",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "maintaining",
+	"p_arg": "V",
+	"p_ne": null,
+	"h": "distributing",
+	"h_arg": "V1",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "the kernel",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "The Linux Foundation",
+	"h_arg": "A0",
+	"h_ne": ["ORG"],
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "responsible for maintaining the kernel",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "distributing",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "responsible for maintaining the kernel",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "desktops",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "responsible for maintaining the kernel",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "The Linux Foundation",
+	"h_arg": "A0",
+	"h_ne": ["ORG"],
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "Jonny Ives",
+	"p_arg": "A0",
+	"p_ne": ["PER"],
+	"h": "Jonny Ive",
+	"h_arg": "A0",
+	"h_ne": ["PER"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "Jonny Ives",
+	"p_arg": "A0",
+	"p_ne": ["PER"],
+	"h": "threatened",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "threatened",
+	"p_arg": "V",
+	"p_ne": null,
+	"h": "Apple",
+	"h_arg": "A1",
+	"h_ne": ["ORG"],
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "Apple",
+	"p_arg": "A1",
+	"p_ne": ["ORG"],
+	"h": "Jonny Ives",
+	"h_arg": "A0",
+	"h_ne": ["PER"],
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "Jonny Ives , lead designer at Apple ,",
+	"p_arg": "A0",
+	"p_ne": ["PER", "ORG"],
+	"h": "Jonny Ives",
+	"h_arg": "A0",
+	"h_ne": ["PER"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "leave",
+	"p_arg": "V",
+	"p_ne": null,
+	"h": "leave",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "leave",
+	"p_arg": "V",
+	"p_ne": null,
+	"h": "has",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "Apple",
+	"p_arg": "A1",
+	"p_ne": ["ORG"],
+	"h": "Jonny Ives , lead designer at Apple ,",
+	"h_arg": "A0",
+	"h_ne": ["PER", "ORG"],
+	"aligned_sym": "True",
+	"aligned_asym": "False"
+},
+{
+	"p": "to leave Apple",
+	"p_arg": "A1",
+	"p_ne": ["ORG"],
+	"h": "has",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "to leave",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "to leave Apple",
+	"h_arg": "A1",
+	"h_ne": ["ORG"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "Jeremy and Carl",
+	"p_arg": "A1",
+	"p_ne": ["PER", "PER"],
+	"h": "Jeremy",
+	"h_arg": "A1",
+	"h_ne": ["PER"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "Carl 's brother",
+	"p_arg": "A1",
+	"p_ne": ["PER"],
+	"h": "brother",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "is",
+	"p_arg": "V",
+	"p_ne": null,
+	"h": "are",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "is",
+	"p_arg": "V",
+	"p_ne": null,
+	"h": "Carl 's brother",
+	"h_arg": "A1",
+	"h_ne": ["PER"],
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "Jeremy and Carl",
+	"p_arg": "A1",
+	"p_ne": ["PER", "PER"],
+	"h": "Jeremy",
+	"h_arg": "A1",
+	"h_ne": ["PER"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "brothers",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "Carl 's brother",
+	"h_arg": "A1",
+	"h_ne": ["PER"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "The red cat",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "jumped",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "jumped",
+	"p_arg": "V",
+	"p_ne": null,
+	"h": "jump",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "The cat",
+	"p_arg": "A0",
+	"p_ne": null,
+	"h": "The red cat",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "False"
+},
+{
+	"p": "over the dog",
+	"p_arg": "A2",
+	"p_ne": null,
+	"h": "jumped",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "over the dog",
+	"p_arg": "A2",
+	"p_ne": null,
+	"h": "the red cat",
+	"h_arg": "A0",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "did",
+	"p_arg": "V",
+	"p_ne": null,
+	"h": "jumped",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "Slowly",
+	"p_arg": "AM-ADV",
+	"p_ne": null,
+	"h": "Linux",
+	"h_arg": "A0",
+	"h_ne": ["MISC"],
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "Slowly",
+	"p_arg": "AM-ADV",
+	"p_ne": null,
+	"h": "gaining",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "Linux",
+	"p_arg": "A1",
+	"p_ne": ["MISC"],
+	"h": "Linux",
+	"h_arg": "A0",
+	"h_ne": ["MISC"],
+	"aligned_sym": "True",
+	"aligned_asym": "False"
+},
+{
+	"p": "market share",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "market share",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "market share",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "gaining market share and mind share",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "Linux",
+	"p_arg": "A0",
+	"p_ne": ["MISC"],
+	"h": "gaining market share and mind share",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "Linux",
+	"p_arg": "A1",
+	"p_ne": ["MISC"],
+	"h": "market share",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "HP",
+	"p_arg": "A0",
+	"p_ne": ["ORG"],
+	"h": "Lenovo",
+	"h_arg": "A0",
+	"h_ne": ["ORG"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "Lenovo",
+	"p_arg": "A1",
+	"p_ne": ["ORG"],
+	"h": "Lenovo",
+	"h_arg": "A0",
+	"h_ne": ["ORG"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "James",
+	"p_arg": "A0",
+	"p_ne": ["PER"],
+	"h": "Carl",
+	"h_arg": "A0",
+	"h_ne": ["PER"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "Max",
+	"p_arg": "A1",
+	"p_ne": ["PER"],
+	"h": "Steve",
+	"h_arg": "A1",
+	"h_ne": ["PER"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "James",
+	"p_arg": "A0",
+	"p_ne": ["PER"],
+	"h": "James",
+	"h_arg": "A1",
+	"h_ne": ["PER"],
+	"aligned_sym": "True",
+	"aligned_asym": "False"
+},
+{
+	"p": "cats",
+	"p_arg": "A0",
+	"p_ne": null,
+	"h": "dogs",
+	"h_arg": "A0",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "animals",
+	"p_arg": "A0",
+	"p_ne": null,
+	"h": "mammals",
+	"h_arg": "A0",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "cats",
+	"p_arg": "A0",
+	"p_ne": null,
+	"h": "shorthair cats",
+	"h_arg": "A0",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "tablets",
+	"p_arg": "A0",
+	"p_ne": null,
+	"h": "laptops",
+	"h_arg": "A0",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "iPhone",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "Android",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "iOS",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "Android",
+	"h_arg": "A0",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "False"
+},
+{
+	"p": "reptiles",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "mammals",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "large cats",
+	"p_arg": "A0",
+	"p_ne": null,
+	"h": "small cats",
+	"h_arg": "A0",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "Nobody",
+	"p_arg": "A0",
+	"p_ne": null,
+	"h": "No one",
+	"h_arg": "A0",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "make phones",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "not yet manufacture phones",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "make",
+	"p_arg": "V",
+	"p_ne": null,
+	"h": "manufacture",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "Lenovo",
+	"p_arg": "A0",
+	"p_ne": ["ORG"],
+	"h": "Lenovo",
+	"h_arg": "A0",
+	"h_ne": ["ORG"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "though they produce tablets",
+	"p_arg": "AM-ADV",
+	"p_ne": null,
+	"h": "Lenovo",
+	"h_arg": "A0",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "though they produce tablets",
+	"p_arg": "AM-ADV",
+	"p_ne": null,
+	"h": "make",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "though they produce tablets",
+	"p_arg": "AM-ADV",
+	"p_ne": null,
+	"h": "not yet manufacture phones",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "the author",
+	"p_arg": "A0",
+	"p_ne": null,
+	"h": "the writer",
+	"h_arg": "A0",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "the author",
+	"p_arg": "A0",
+	"p_ne": null,
+	"h": "the snail",
+	"h_arg": "A0",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "the dentist",
+	"p_arg": "A0",
+	"p_ne": null,
+	"h": "a doctor",
+	"h_arg": "A0",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "Tomorrow Congress",
+	"p_arg": "A0",
+	"p_ne": ["ORG"],
+	"h": "Congress",
+	"h_arg": "A0",
+	"h_ne": ["ORG"],
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "Tomorrow Congress",
+	"p_arg": "A0",
+	"p_ne": ["ORG"],
+	"h": "has",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "voted",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "on the bill",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "one the bill",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "Congress",
+	"h_arg": "A0",
+	"h_ne": ["ORG"],
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "will",
+	"p_arg": "AM-MOD",
+	"p_ne": null,
+	"h": "voted",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "vote",
+	"p_arg": "V",
+	"p_ne": null,
+	"h": "voted",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "Tomorrow Congress",
+	"p_arg": "A0",
+	"p_ne": null,
+	"h": "voted",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "iOS",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "IOS",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "iOS",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "iOS for being closed source",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "Reviewers",
+	"p_arg": "A0",
+	"p_ne": null,
+	"h": "iOS",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "is",
+	"p_arg": "V",
+	"p_ne": null,
+	"h": "critisized",
+	"h_arg": "V",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "for being closed source",
+	"p_arg": "A2",
+	"p_ne": null,
+	"h": "closed source",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "closed source",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "Reviewers",
+	"h_arg": "A0",
+	"h_ne": null,
+	"aligned_sym": "False",
+	"aligned_asym": "False"
+},
+{
+	"p": "the movie",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "the film",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "the team from UNC",
+	"p_arg": "A0",
+	"p_ne": null,
+	"h": "the basketball team from Duke",
+	"h_arg": "A0",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "red",
+	"p_arg": "A0",
+	"p_ne": null,
+	"h": "green",
+	"h_arg": "A0",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "the cats",
+	"p_arg": "A0",
+	"p_ne": null,
+	"h": "the kittens",
+	"h_arg": "A0",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "the wireless access point",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "the Go-go wireless access",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+},
+{
+	"p": "",
+	"p_arg": "A1",
+	"p_ne": null,
+	"h": "",
+	"h_arg": "A1",
+	"h_ne": null,
+	"aligned_sym": "True",
+	"aligned_asym": "True"
+}]
