@@ -17,6 +17,7 @@ try:
     import cPickle as pickle
 except:
     import pickle  # lint:ok
+import numpy as np
 from nltk import word_tokenize, pos_tag, ne_chunk
 import phrase_alignment_featurizer as paf
 from model import semantic_role
@@ -36,7 +37,7 @@ class Harness(object):
         targets_asym = []
         targets_sym = []
         start = time()
-        for index, problem in enumerate(self.problems[:1]):
+        for index, problem in enumerate(self.problems):
             print 'Starting problem', index
             tokens = word_tokenize(problem['p'])
             pos_tagged_tokens = pos_tag(tokens)
@@ -61,10 +62,11 @@ class Harness(object):
             targets_asym.append(problem['aligned_asym'])
             targets_sym.append(problem['aligned_sym'])
 
+        feature_vectors_matrix = np.vstack(features)
         # Write the feature vectors
         features_file = open(
             '../resources/models/phrase_alignment_features.p', 'w+b')
-        pickle.dump(features, features_file)
+        pickle.dump(feature_vectors_matrix, features_file)
         features_file.close()
         # Write the asym targets
         targets_asym_file = open(

@@ -105,6 +105,12 @@ if __name__ == '__main__':
         'jump', 'VB', 'VP', None, 'A0'
     )
     h = semantic_role.Semantic_role(
-        'leap', 'VB', 'VP', None, 'A0'
+        'jump', 'VB', 'VP', None, 'A0'
     )
+    #p = semantic_role.Semantic_role(
+        #['A', 'dog'], '', 'VP', None, 'A0'
+    #)
+    #h = semantic_role.Semantic_role(
+        #'leap', 'VB', 'VP', None, 'A0'
+    #)
     print featurizer.featurize(p, h)
