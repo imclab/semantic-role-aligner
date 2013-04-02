@@ -9,7 +9,7 @@ fit classifier (random forest)
 pickle model
 '''
 import sys
-sys.path.append('/home/gavin/dev/phrase_aligner')
+sys.path.append('/home/gavin/dev/argument_based_entailment')
 import os
 import json
 from time import time

@@ -1400,7 +1400,7 @@
 	"aligned_asym": 0
 },
 {
-	"p": "Linus Torvalds ,  the founder of Linux ,",
+	"p": "Linus Torvalds , the founder of Linux ,",
 	"p_arg": ["A0"],
 	"p_ne": ["PER", "MISC"],
 	"h": "Linus Torvalds",
@@ -1410,7 +1410,7 @@
 	"aligned_asym": 1
 },
 {
-	"p": "Linus Torvalds ,  the founder of Linux ,",
+	"p": "Linus Torvalds , the founder of Linux ,",
 	"p_arg": ["A0"],
 	"p_ne": ["PER", "MISC"],
 	"h": "found",
@@ -3520,6 +3520,426 @@
 	"aligned_asym": 1
 },
 {
+    "p": "the battle",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "the war",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "abundant mustard",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "lots of mustard",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "mustard",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "ketchup",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "eggplants",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "an eggplant",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "celery and other vegetables",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "vegetables including celery",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "the cheater",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "a cheater",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "an arrogant company",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "Apple , a company known for arrogance",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "the typical iOS app",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "the greatest iOS fart app",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "the distinguished professor of mathematics",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "the math professor",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "a liar",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "a liar and slave",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "a twat",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "a smarmy twat",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "a person that cannot be trusted",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "a person unworthy of trust",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "a lazy cunt",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "a stupid cunt",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "a pizza",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "food",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "some birds",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "some animals",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "screwdriver",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "tool",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "red",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "colors",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "an iPhone",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "a phone",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "the Republicans",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "the Democrats",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "the brats next door",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "the kids next door",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "those meddling kids",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "those children",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "the kids",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "the children",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "the holidays",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "Christmas",
+	"h_arg": ["A0"],
+	"h_ne": ["MISC"],
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "a meal",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "a great meal",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "a delicious sandwich",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "some lunch",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "a cheeseburger",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "the tasty cheeseburger",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "chicken",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "food",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "animal",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "dog",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "cats",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "crepuscular mammals",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "cats",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "mammals",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "guitar",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "musical instrument",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "his Stratocaster",
+	"p_arg": ["A0"],
+	"p_ne": ["MISC"],
+    "h": "his guitar",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "a cat with a UTI",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "a sick cat",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "a sad cat",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "a sick cat",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "a dog",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "a dog named Earl",
+	"h_arg": ["A0"],
+	"h_ne": ["PER"],
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "an old car",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "a fancy car",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "the mighty eagle",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "the bald eagle",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "a large bird",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "a big stork",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "a large tuna",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "the biggest tuna",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "the most delicious cheeseburger",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "a cheeseburger",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "a tasty sandwich",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "some food",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "an ingrown hair",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "a hair",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
     "p": "red",
 	"p_arg": ["A1"],
 	"p_ne": null,
@@ -3675,6 +4095,276 @@
 	"p_ne": ["MISC"],
     "h": "his guitar",
 	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "a cat with a UTI",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "a sick cat",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "a sad cat",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "a sick cat",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "a dog",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "a dog named Earl",
+	"h_arg": ["A1"],
+	"h_ne": ["PER"],
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "an old car",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "a fancy car",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "the mighty eagle",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "the bald eagle",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "a large bird",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "a big stork",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "a large tuna",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "the biggest tuna",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "the most delicious cheeseburger",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "a cheeseburger",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "a tasty sandwich",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "some food",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "an ingrown hair",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "a hair",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "we",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "we",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "spewed",
+	"p_arg": ["V"],
+	"p_ne": null,
+    "h": "ralphed",
+	"h_arg": ["V"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "chased",
+	"p_arg": ["V"],
+	"p_ne": null,
+    "h": "pursued",
+	"h_arg": ["V"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "battled",
+	"p_arg": ["V"],
+	"p_ne": null,
+    "h": "fought",
+	"h_arg": ["V"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "the battle",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "the war",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "abundant mustard",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "lots of mustard",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "mustard",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "ketchup",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "eggplants",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "an eggplant",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "celery and other vegetables",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "vegetables including celery",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "the cheater",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "a cheater",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "an arrogant company",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "Apple , a company known for arrogance",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "the typical iOS app",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "the greatest iOS fart app",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "the distinguished professor of mathematics",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "the math professor",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "a liar",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "a liar and slave",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "a twat",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "a smarmy twat",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "a person that cannot be trusted",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "a person unworthy of trust",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "a lazy cunt",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "a stupid cunt",
+	"h_arg": ["A0"],
 	"h_ne": null,
 	"aligned_sym": 1,
 	"aligned_asym": 1
