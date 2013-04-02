@@ -15,7 +15,7 @@ from sklearn.ensemble import RandomForestClassifier
 class Classifier_sym:
 
     def __init__(self):
-        base_path = '/home/gavin/dev/phrase_aligner/resources/models'
+        base_path = '/home/gavin/dev/argument_based_entailment/resources/models'
         model_path = os.path.join(
             base_path, 'phrase_alignment_features.p')
         training_file = open(model_path)
@@ -30,9 +30,9 @@ class Classifier_sym:
         self.clf = RandomForestClassifier()
         self.clf = self.clf.fit(training_data, targets)
 
-    def predict(self, feature_vector):
+    def classify(self, feature_vector):
         return self.clf.predict(feature_vector)
 
 if __name__ == '__main__':
     clf = Classifier_sym()
-    print clf.predict([1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0975, 0.0975, 0.0, 0.0, 0.0, 0.0, 0.095, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0])
+    print clf.classify([1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0975, 0.0975, 0.0, 0.0, 0.0, 0.0, 0.095, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0])

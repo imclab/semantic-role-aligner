@@ -8,31 +8,31 @@ try:
     import cPickle as pickle
 except:
     import pickle  # lint:ok
-
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.svm import SVC
+import numpy as np
 
 
 class Classifier_asym:
 
     def __init__(self):
-        base_path = '/home/gavin/dev/argument_based_entailment/resources/models'
+        base_path = '/home/gavin/dev/phrase_aligner/resources/models'
         model_path = os.path.join(
             base_path, 'phrase_alignment_features.p')
         training_file = open(model_path)
         training_data = pickle.load(training_file)
         training_file.close()
 
-        targets_path = os.path.join(base_path, 'phrase_alignment_targets_asym.p')
+        targets_path = os.path.join(base_path, 'phrase_alignment_targets_sym.p')
         targets_file = open(targets_path)
         targets = pickle.load(targets_file)
         targets_file.close()
 
-        self.clf = RandomForestClassifier()
-        self.clf = self.clf.fit(training_data, targets)
+        self.svm = SVC()
+        self.svm.fit(training_data, targets)
 
     def classify(self, feature_vector):
-        return self.clf.predict(feature_vector)
+        return self.svm.predict(feature_vector)
 
 if __name__ == '__main__':
     clf = Classifier_asym()
-    print clf.classify([1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0975, 0.0975, 0.0, 0.0, 0.0, 0.0, 0.095, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0])
+    print clf.classify_svm([1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0975, 0.0975, 0.0, 0.0, 0.0, 0.0, 0.095, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0])

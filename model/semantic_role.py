@@ -24,11 +24,10 @@ class Semantic_role(object):
         self.wn_tags = self.get_wn_tags(self.penn_tags)
         self.chunk_tags = chunk_tags
         self.ne_labels = ne_labels
-        #self.predicate_labels = predicate_labels
         self.full_arg_type = full_arg_type
 
     def get_arg_type(self):
-        return self.full_arg_type[-2:]
+        return self.full_arg_type[0][-2:]
 
     def get_wn_tags(self, penn_tags):
         wn_tags = []
@@ -38,6 +37,12 @@ class Semantic_role(object):
             else:
                 wn_tags.append('SKIP')
         return wn_tags
+
+    def __hash__(self):
+        return hash((self.tokens, self.full_arg_type))
+
+    def __eq__(self, other):
+        return (self.tokens, self.full_arg_type) == (other.tokens, other.full_arg_type)
 
     def __repr__(self):
         return ('''

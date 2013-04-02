@@ -79,6 +79,9 @@ class Harness(object):
         pickle.dump(targets_sym, targets_sym_file)
         targets_sym_file.close()
 
+        print targets_asym
+        print '\n\n\n', targets_sym
+
         print len(self.problems)
         print len(targets_asym)
         print len(targets_sym)
