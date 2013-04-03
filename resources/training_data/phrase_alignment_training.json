@@ -1320,6 +1320,166 @@
 	"aligned_asym": 0
 },
 {
+	"p": "New York State Senator",
+	"p_arg": ["A0"],
+	"p_ne": ["LOC"],
+	"h": "a state senator from New York",
+	"h_arg": ["A0"],
+	"h_ne": ["LOC"],
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+	"p": "a top New York Democrat",
+	"p_arg": ["A0"],
+	"p_ne": null,
+	"h": "a Democratic state senator for New York",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+	"p": "Four other officials",
+	"p_arg": ["A2"],
+	"p_ne": null,
+	"h": "Four other officials including the heads of the Republican party in the Bronx and Queens",
+	"h_arg": ["A1"],
+	"h_ne": ["ORG", "LOC", "LOC"],
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+	"p": "also",
+	"p_arg": ["AM-DIS"],
+	"p_ne": null,
+	"h": "were",
+	"h_arg": ["V"],
+	"h_ne": null,
+	"aligned_sym": 0,
+	"aligned_asym": 0
+},
+{
+	"p": "those damn quotation marks",
+	"p_arg": ["A1"],
+	"p_ne": null,
+	"h": "the pack of snakes",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 0,
+	"aligned_asym": 0
+},
+{
+	"p": "also charged",
+	"p_arg": ["A1"],
+	"p_ne": null,
+	"h": "charged",
+	"h_arg": ["V"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+	"p": "Smith",
+	"p_arg": ["A0"],
+	"p_ne": ["PER"],
+	"h": "suggested",
+	"h_arg": ["V"],
+	"h_ne": null,
+	"aligned_sym": 0,
+	"aligned_asym": 0
+},
+{
+	"p": "by describing them as retainers for legal and accounting services",
+	"p_arg": ["AM-MNR"],
+	"p_ne": null,
+	"h": "covering up the payments by describing them as retainers for legal and accounting services",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+	"p": "the payments",
+	"p_arg": ["A1"],
+	"p_ne": null,
+	"h": "Smith",
+	"h_arg": ["A"],
+	"h_ne": ["PER"],
+	"aligned_sym": 0,
+	"aligned_asym": 0
+},
+{
+	"p": "the payments",
+	"p_arg": ["A1"],
+	"p_ne": null,
+	"h": "them",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+	"p": "covering",
+	"p_arg": ["V"],
+	"p_ne": null,
+	"h": "describing",
+	"h_arg": ["V"],
+	"h_ne": null,
+	"aligned_sym": 0,
+	"aligned_asym": 0
+},
+{
+	"p": "Jasmina and Desmaret",
+	"p_arg": ["A1"],
+	"p_ne": ["PER", "PER"],
+	"h": "were",
+	"h_arg": ["V"],
+	"h_ne": null,
+	"aligned_sym": 0,
+	"aligned_asym": 0
+},
+{
+	"p": "Jasmina and Desmaret",
+	"p_arg": ["A1"],
+	"p_ne": ["PER", "PER"],
+	"h": "the pair",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 0
+},
+{
+	"p": "Jasmina and Desmaret",
+	"p_arg": ["A1"],
+	"p_ne": ["PER", "PER"],
+	"h": "Desmarest and her friend Jasmina",
+	"h_arg": ["A1"],
+	"h_ne": ["PER", "PER"],
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+	"p": "lowered its sales and earning forecast because of a weakening market",
+	"p_arg": ["A1"],
+	"p_ne": null,
+	"h": "lowered its sales and earning forecast because of a weakening market for medical transcription services",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+	"p": "Activist investor Carl Icahn",
+	"p_arg": ["A0"],
+	"p_ne": ["PER"],
+	"h": "Carl Icahn",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
 	"p": "little success",
 	"p_arg": ["A1"],
 	"p_ne": null,
@@ -4365,6 +4525,506 @@
 	"p_ne": null,
     "h": "a stupid cunt",
 	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "Disney and Pixar",
+	"p_arg": ["A0"],
+	"p_ne": ["ORG", "ORG"],
+    "h": "Movie studios Disney and Pixar",
+	"h_arg": ["A0"],
+	"h_ne": ["ORG", "ORG"],
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "the perfect family dog",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "an ideal dog for families",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "His subsequent career as a businessman",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "his career in business",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 0
+},
+{
+    "p": "His subsequent career as a businessman",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "his career in business",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "troubled by bankruptcies",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "plagued by financial troubles and brankruptcies",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "in an indictment",
+	"p_arg": ["A2"],
+	"p_ne": null,
+    "h": "in the first of several indictments",
+	"h_arg": ["A2"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "in an indictment",
+	"p_arg": ["A2"],
+	"p_ne": null,
+    "h": "culminated",
+	"h_arg": ["A2"],
+	"h_ne": null,
+	"aligned_sym": 0,
+	"aligned_asym": 0
+},
+{
+    "p": "the used car salesman",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "the sleezy salesman",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "by bankruptcies",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "by bankruptcies",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 0
+},
+{
+    "p": "it",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "is",
+	"h_arg": ["V"],
+	"h_ne": null,
+	"aligned_sym": 0,
+	"aligned_asym": 0
+},
+{
+    "p": "government that has corrupted the private sector",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "corrupted the private sector",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "designed by Apple , the iPhone",
+	"p_arg": ["A0"],
+	"p_ne": ["ORG", "MISC"],
+    "h": "Apple 's iPhone",
+	"h_arg": ["A0"],
+	"h_ne": ["ORG", "MISC"],
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "UN arms trade treaty",
+	"p_arg": ["A1"],
+	"p_ne": ["ORG"],
+    "h": "a UN treaty regarding the sale of arms",
+	"h_arg": ["A1"],
+	"h_ne": ["ORG"],
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "UN arms trade treaty",
+	"p_arg": ["A1"],
+	"p_ne": ["ORG"],
+    "h": "a UN treaty regarding the sale of arms",
+	"h_arg": ["A0"],
+	"h_ne": ["ORG"],
+	"aligned_sym": 1,
+	"aligned_asym": 0
+},
+{
+    "p": "the sweetest and cutest kitten",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "a sweet cat",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "Reknown for being a piece of shit , Fox News",
+	"p_arg": ["A0"],
+	"p_ne": ["ORG"],
+    "h": "Shit heap Fox News",
+	"h_arg": ["A0"],
+	"h_ne": ["ORG"],
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "just after news that Amazon offered Kindel a job",
+	"p_arg": ["A1"],
+	"p_ne": ["ORG", "PER"],
+    "h": "after Amazon announced that Kindel was hired",
+	"h_arg": ["A1"],
+	"h_ne": ["ORG", "PER"],
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "he",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "Ariel Sharin",
+	"h_arg": ["A0"],
+	"h_ne": ["PER"],
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "the tablet market",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "the market for smartphones and tablets",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "a critical component of the smartphone ecosystem",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "an important opportunity for smartphones",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "earlier versions of AT&T 's  Watson API",
+	"p_arg": ["A0"],
+	"p_ne": ["ORG", "MISC"],
+    "h": "previous versions of the API",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "fart noises",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "farty sounds",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "the Malaysian Prime Minister",
+	"p_arg": ["A0"],
+	"p_ne": ["LOC"],
+    "h": "the Prime Minister of Malaysia",
+	"h_arg": ["A0"],
+	"h_ne": ["LOC"],
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "hand sanitizer",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "pot stickers",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 0,
+	"aligned_asym": 0
+},
+{
+    "p": "grass",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "tactical missiles",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 0,
+	"aligned_asym": 0
+},
+{
+    "p": "the last thing that happened",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "foot soldiers",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 0,
+	"aligned_asym": 0
+},
+{
+    "p": "fire escapes",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "chariots",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 0,
+	"aligned_asym": 0
+},
+{
+    "p": "witnesses",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "people",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "the pamphlet",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "the free brochure",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "a crash diet",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "a diet favored by celebrities",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "the search engine",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "Google",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "attempted",
+	"p_arg": ["V"],
+	"p_ne": null,
+    "h": "tried",
+	"h_arg": ["V"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "forced",
+	"p_arg": ["V"],
+	"p_ne": null,
+    "h": "Sunday",
+	"h_arg": ["AM-TMP"],
+	"h_ne": null,
+	"aligned_sym": 0,
+	"aligned_asym": 0
+},
+{
+    "p": "licked",
+	"p_arg": ["V"],
+	"p_ne": null,
+    "h": "slurped",
+	"h_arg": ["V"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "dumpsters",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "trash cans",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "attempts to quell the rebellion",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "efforts to appease the rebels",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "attempts to rescue the passengers",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "resue efforts",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 0
+},
+{
+    "p": "rescue efforts",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "multiple rescue attempts",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "rescue efforts",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "creepy reptiles",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 0,
+	"aligned_asym": 0
+},
+{
+    "p": "frozen water",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "cold water",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "also evolved",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "evolved",
+	"h_arg": ["V"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "its tablet experience",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "its tablet and smartphone offerings",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "is tablet experience",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "a most impressive adventure",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "surfing",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "laserdics",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 0,
+	"aligned_asym": 0
+},
+{
+    "p": "sometimes called the father of global warming",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "known as the father of global warming",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "the impact of rising levels of greenhouse gases",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "the effects of concentrated greenhouse gases like carbon dioxide",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "taking a long time",
+	"p_arg": ["A0"],
+	"p_ne": null,
+    "h": "taking longer than expected",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "to his more extreme comments",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "Dr. Hansen",
+	"h_arg": ["A0"],
+	"h_ne": null,
+	"aligned_sym": 0,
+	"aligned_asym": 0
+},
+{
+    "p": "a statement claiming the right for scientists to speak freely",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "a statement underlining the right of scientists to speak out without restriction",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "to his more extreme comments",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "to the nature and detail of his comments",
+	"h_arg": ["A1"],
 	"h_ne": null,
 	"aligned_sym": 1,
 	"aligned_asym": 1

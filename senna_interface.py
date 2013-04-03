@@ -17,9 +17,7 @@ class Senna_interface(object):
         pass
 
     def is_symmetric(self, argument_types):
-        print '***', argument_types
         argument_types = [t[2:] for t in argument_types if t != 'O']
-        print '***', argument_types
         if 'A0' in argument_types and 'A1' in argument_types:
             return False
         return True
@@ -66,41 +64,50 @@ class Senna_interface(object):
         #print 'semantic role labels', semantic_role_labels
 
         semantic_roles = []
+        token_start_index = 0
+        token_end_index = 0
         for i, label in enumerate(semantic_role_labels):
             if label[0] == 'S':
                 phrase_indices = []
                 role = sr.Semantic_role(
                     [tokens[i]],
+                    [token_start_index],
                     pos_tags[i],
                     chunk_tags[i],
                     ne_labels[i],
-                    #[semantic_role_labels[i]]
                     [argument_types[i]]
                 )
+                token_start_index += 1
                 semantic_roles.append(role)
             elif label[0] == 'B':
                 phrase_indices = [i]
+            #elif label[0] == 'I':
+                #token_start_index += 1
+                #print '1'
             elif label[0] == 'E':
                 phrase_indices.append(i+1)
+                token_end_index = token_start_index + len(tokens[phrase_indices[0]:phrase_indices[1]])
                 role = sr.Semantic_role(
                     tokens[phrase_indices[0]:phrase_indices[1]],
+                    range(token_start_index, token_end_index),
                     pos_tags[phrase_indices[0]:phrase_indices[1]],
                     chunk_tags[phrase_indices[0]:phrase_indices[1]],
                     ne_labels[phrase_indices[0]:phrase_indices[1]],
-                    #semantic_role_labels[phrase_indices[0]:phrase_indices[1]]
                     argument_types[phrase_indices[0]:phrase_indices[1]]
                 )
+                token_start_index = token_end_index
                 semantic_roles.append(role)
             elif label[0] == 'O':
                 phrase_indices = []
                 semantic_roles.append(sr.Semantic_role(
                     [tokens[i]],
+                    [token_start_index],
                     pos_tags[i],
                     chunk_tags[i],
                     ne_labels[i],
-                    #[semantic_role_labels[i]]
                     [argument_types[i]]
                 ))
+                token_start_index += 1
 
         return semantic_roles, is_symmetric
 
@@ -108,6 +115,6 @@ class Senna_interface(object):
 if __name__ == '__main__':
     si = Senna_interface()
     #roles = si.get_semantic_roles('Pope Francis will continue to use the papal library on the second floor of the Apostolic palace for receiving official guests and will appear on Sundays at the window used by previous popes to address pilgrims in St Peters Square.')
-    roles = si.get_semantic_roles('Pope Francis will continue to use the papal library on the second floor.')
+    roles, is_symmetric = si.get_semantic_roles('Pope Francis will continue to use the papal library on the second floor.')
     for i in roles:
-        print i
+        print i, '\n'

@@ -13,18 +13,20 @@ from nltk.corpus import wordnet as wn
 class Semantic_role(object):
 
     def __init__(
-        self, tokens, penn_tags, chunk_tags,
-            ne_labels, full_arg_type):
+        self, tokens, token_indices, penn_tags, chunk_tags, ne_labels,
+        full_arg_type):
 
         self.tag_conversion_dict = {
             'NN': wn.NOUN, 'JJ': wn.ADJ, 'VB': wn.VERB, 'RB': wn.ADV
         }
         self.tokens = tokens
+        self.token_indices = token_indices
         self.penn_tags = penn_tags
         self.wn_tags = self.get_wn_tags(self.penn_tags)
         self.chunk_tags = chunk_tags
         self.ne_labels = ne_labels
         self.full_arg_type = full_arg_type
+        self.monotonicities = []
 
     def get_arg_type(self):
         return self.full_arg_type[0][-2:]
@@ -46,12 +48,14 @@ class Semantic_role(object):
 
     def __repr__(self):
         return ('''
-        tokens: %s
-        pos_tags: %s
-        chunk tags: %s
-        ne labels: %s
-        full_arg_type: %s''' % (
+tokens: %s
+token indices: %s
+pos_tags: %s
+chunk tags: %s
+ne labels: %s
+full_arg_type: %s''' % (
         self.tokens,
+        self.token_indices,
         self.penn_tags,
         self.chunk_tags,
         self.ne_labels,

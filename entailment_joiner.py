@@ -25,7 +25,6 @@ class Entailment_joiner(object):
         '''
         previous_composition = 0
         for i in entailments:
-            print 'joining', type(i), i
             previous_composition = self.join_table[previous_composition][int(i)]
         return previous_composition
 
