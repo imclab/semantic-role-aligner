@@ -129,16 +129,50 @@ if __name__ == '__main__':
     #h = semantic_role.Semantic_role(
         #'leap', 'VB', 'VP', None, 'V'
     #)
-    p = semantic_role.Semantic_role(
-        'jump', 'VB', 'VP', None, 'A0'
-    )
-    h = semantic_role.Semantic_role(
-        'jump', 'VB', 'VP', None, 'A1'
-    )
+    #p = semantic_role.Semantic_role(
+        #'jump', 0, 'VB', 'VP', None, 'A0'
+    #)
+    #h = semantic_role.Semantic_role(
+        #'jump', 0, 'VB', 'VP', None, 'A1'
+    #)
     #p = semantic_role.Semantic_role(
         #['A', 'dog'], '', 'VP', None, 'A0'
     #)
     #h = semantic_role.Semantic_role(
         #'leap', 'VB', 'VP', None, 'A0'
     #)
+    p = semantic_role.Semantic_role(
+        ['a', 'tasty', 'sandwich'],
+        [0, 1, 2],
+        ['DT', 'JJ', 'NN'],
+        ['B-NP', 'I-NP', 'E-NP'],
+        None,
+        'A1'
+    )
+    h = semantic_role.Semantic_role(
+        ['some', 'food'],
+        [0, 1],
+        ['DT', 'NN'],
+        ['B-NP', 'E-NP'],
+        None,
+        'A1'
+    )
+    print featurizer.featurize(p, h)
+
+    p = semantic_role.Semantic_role(
+        ['a', 'tasty', 'sandwich'],
+        [0, 1, 2],
+        ['DT', 'JJ', 'NN'],
+        ['B-NP', 'I-NP', 'E-NP'],
+        None,
+        'A1'
+    )
+    h = semantic_role.Semantic_role(
+        ['cat', 'hats'],
+        [0, 1],
+        ['NN', 'NNS'],
+        ['B-NP', 'E-NP'],
+        None,
+        'A1'
+    )
     print featurizer.featurize(p, h)

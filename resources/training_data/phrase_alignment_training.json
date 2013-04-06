@@ -4720,6 +4720,166 @@
 	"aligned_asym": 1
 },
 {
+    "p": "a tasty sandwich",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "some food",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "a big apple",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "a fruit",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "some birds",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "some animals",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "several screwdrivers",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "some tools",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "a pack of geese",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "a group of birds",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "some shirts",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "some clothes",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "a new dog",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "an animal",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "a new dog",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "a new pet",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "the adorable kitten",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "a cute cat",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "the seasoned veteran",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "the old soldier",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "the fighter",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "the seasoned warrior",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "the brave soldier",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "the soldier",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "excellent food",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "terrible food",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "excellent dinner",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "great meal",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "delicious soup",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "some great food",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
+    "p": "the ambassador",
+	"p_arg": ["A1"],
+	"p_ne": null,
+    "h": "an official",
+	"h_arg": ["A1"],
+	"h_ne": null,
+	"aligned_sym": 1,
+	"aligned_asym": 1
+},
+{
     "p": "a critical component of the smartphone ecosystem",
 	"p_arg": ["A1"],
 	"p_ne": null,

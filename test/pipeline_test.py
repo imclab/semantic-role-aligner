@@ -12,6 +12,7 @@ class Test_classifier(unittest.TestCase):
         self.problems = [
         ('The Mets beat the Yankees', 'The Yankees beat the Mets', False),
         ('I ate a tasty sandwich', 'I ate some food', True),
+        ('Apple released a new and faster iPhone with more RAM', 'a new iPhone released by Apple', True)
 
         ]
         self.targets = [t[2] for t in self.problems]

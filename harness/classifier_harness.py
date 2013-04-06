@@ -44,8 +44,9 @@ class Harness(object):
             chunks = ne_chunk(pos_tagged_tokens)
             ne_labels = problem['p_ne']
             arg_type = problem['p_arg']
+            # Create a semantic role. No features use token indices, so it can be 0
             p_role = semantic_role.Semantic_role(
-                tokens, pos_tagged_tokens, chunks, ne_labels, arg_type)
+                tokens, 0, pos_tagged_tokens, chunks, ne_labels, arg_type)
             #print p_role
 
             tokens = word_tokenize(problem['h'])
@@ -53,8 +54,9 @@ class Harness(object):
             chunks = ne_chunk(pos_tagged_tokens)
             ne_labels = problem['h_ne']
             arg_type = problem['h_arg']
+            # Create a semantic role. No features use token indices, so it can be 0
             h_role = semantic_role.Semantic_role(
-                tokens, pos_tagged_tokens, chunks, ne_labels, arg_type)
+                tokens, 0, pos_tagged_tokens, chunks, ne_labels, arg_type)
             #print h_role
 
             feature_vector = self.featurizer.featurize(p_role, h_role)

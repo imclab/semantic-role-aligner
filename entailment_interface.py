@@ -16,8 +16,8 @@ class Entailment_API_interface(object):
     def get_sub_entailment(self, p_role, h_role):
         h_str = ' '.join(h_role.tokens)
         p_str = ' '.join(p_role.tokens)
-        print p_str
-        print h_str
+        #print p_str
+        #print h_str
         parameters = {
             "p": p_str,
             "h": h_str,
@@ -29,7 +29,7 @@ class Entailment_API_interface(object):
 
     def get_ins_entailment(self, h_role):
         h_str = ' '.join(h_role.tokens)
-        print h_str
+        #print h_str
         parameters = {
             "p": 'INS',
             "h": h_str,
@@ -41,7 +41,7 @@ class Entailment_API_interface(object):
 
     def get_del_entailment(self, p_role):
         p_str = ' '.join(p_role.tokens)
-        print p_str
+        #print p_str
         parameters = {
             "p": p_str,
             "h": 'DEL',
@@ -52,7 +52,7 @@ class Entailment_API_interface(object):
         return self.query(url)
 
     def query(self, url):
-        print url
+        #print url
         json_data = urlopen(url)
         results = load(json_data)
         return results['entailment_code']

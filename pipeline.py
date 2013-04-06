@@ -1,32 +1,6 @@
 # -*- coding: utf-8 -*-
 '''
-This really is an entailer with semantic role representation
-
-inputs:
-    p string
-    h string
-
-do:
-    p roles = getPRoles(p string)
-    h roles = getHRoles(h string)
-
-    aligned_role_entailments = []
-    for p_role in p roles:
-        for h_role in h roles:
-            getFeatureVector(p_role, h_role)
-            p_symmetric = getVerbSymmetry(p_role)
-            h_symmetry = getVerbSymmetry(h_role)
-            if p_symmetric and/or? h_symmetric:
-                acceptance_prediction = classifySymmetricAcceptance(p_role, h_role)
-            else:
-                acceptance_prediction = classifyAsymmetricAcceptance(p_role, h_role)
-            if acceptance_prediction == accepted:
-                entailment = getEntailment(p_role, h_role)
-                aligned_role_entailments.append(entailment)
-
-    entailment = join_entailments(aligned_role_entailments)
-    return entailment
-
+@author: gavinhackeling@gmail.com
 '''
 import senna_interface
 import phrase_alignment_featurizer as paf
@@ -78,29 +52,32 @@ class Entailment_recognizer(object):
         # Align roles from p to roles from h
         for p_role in p_roles:
             for h_role in h_roles:
-                print '\nP role:', p_role.tokens
-                print 'H role:', h_role.tokens
+                #print '\nP role:', p_role.tokens
+                #print 'H role:', h_role.tokens
                 features = self.featurizer.featurize(p_role, h_role)
-                print 'Feature vector:\n', features
+                #print 'Feature vector:\n', features
                 if p_is_symmetric and h_is_symmetric:
-                    print 'using symmetric classifier'
+                    #print 'using symmetric classifier'
                     acceptance = self.classifier_sym.classify(features)
                 else:
-                    print 'using asymmetric classifier'
+                    #print 'using asymmetric classifier'
                     acceptance = self.classifier_asym.classify(features)[0]
-                print 'Accepted:', acceptance
+                #print 'Accepted:', acceptance
                 if acceptance == 1:
-                    #print 'removing role'
-                    del_roles.remove(p_role)
-                    ins_roles.remove(h_role)
+                    #print 'p'
+                    #print del_roles
+                    ##print 'h'
+                    #print ins_roles
+                    #print '\nremoving role', p_role, h_role
+                    try:
+                        del_roles.remove(p_role)
+                        ins_roles.remove(h_role)
+                    except:
+                        print 'error removing'
                     entailment = self.entailment_API.get_sub_entailment(p_role, h_role)
-                    print 'Predicted entailment:', entailment
+                    #print 'Predicted entailment:', entailment
                     aligned_role_entailments.append((
                         'SUB', entailment, (p_role.tokens, h_role.tokens)))
-                else:
-                    pass
-                    # handle INS/DEL for roles individually?
-                    # Not yet; role might be aligned to something else.
 
         # Get entailments for DELeted roles
         for del_role in del_roles:
@@ -115,21 +92,32 @@ class Entailment_recognizer(object):
                 'INS', entailment, (ins_role.tokens)))
 
         # Print role alignment type, entailment, and tokens
-        print 'aligned roles'
+        print '\n\n'
         for i in aligned_role_entailments:
             print i
 
         # Join the entailments for the role alignments
         entailment = self.joiner.join(
             [e for ty, e, to in aligned_role_entailments])
-        print 'Joined entailment:', entailment
+        print '\nJoined entailment:', entailment
         return entailment
 
 if __name__ == '__main__':
-    p = 'Carolina beat Kansas.'
-    h = 'Carolina defeated Kansas.'
+    #p = 'Carolina defeated Kansas.'
+    #h = 'Carolina defeated Kansas.'
     #h = 'Kansas beat Carolina.'
     #p = 'at the zoo I ate a pizza.'
     #h = 'I ate food on Tuesday.'
+
+    # Problem
+    # Delete aux verbs when passive voice used?
+    #p = "Apple released a new and faster iPhone with more ram"
+    #h = "a new iPhone released by Apple"
+    #p = "I ate a tasty sandwich"
+    #h = "I ate some food"
+    p = "Chabrol (born June 24, 1930) is a French movie director and has become well-known in the 40 years since his first film, Transformers, for his chilling tales of murder, including Monsters Inc ."
+    h = "Transformers directed by Chabrol."
+    # Fuck
+    # aligning arguments wont work here
     recognizer = Entailment_recognizer()
     entailment = recognizer.get_entailment(p, h)

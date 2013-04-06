@@ -41,10 +41,10 @@ class Semantic_role(object):
         return wn_tags
 
     def __hash__(self):
-        return hash((self.tokens, self.full_arg_type))
+        return hash((self.tokens, self.token_indices))
 
     def __eq__(self, other):
-        return (self.tokens, self.full_arg_type) == (other.tokens, other.full_arg_type)
+        return (self.tokens, self.token_indices) == (other.tokens, other.token_indices)
 
     def __repr__(self):
         return ('''
